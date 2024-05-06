@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>API POKEMON</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 left-panel">
+                <h1 class="text-center mb-4">API de Pokémon</h1>
+                <div class="mb-3">
+                    <input id="nombre" class="form-control" type="text" placeholder="Nombre del Pokémon">
+                </div>
+                <div class="mb-3">
+                    <button id="agregar" class="btn btn-primary mr-3">Agregar</button>
+                    <button id="empezarDeNuevo" class="btn btn-primary mr-3">Empezar de nuevo</button>
+                    <button id="calcular" class="btn btn-primary mr-3">Calcular</button>
+                    <button id="actualizarHistorial" class="btn btn-primary mr-3">Actualizar Historial</button>
+                    <button id="limpiarHistorial" class="btn btn-primary mr-3">Limpiar Historial</button>
+                </div>
+                <div id="pokemones" class="mt-4">
+                </div>
+            </div>
+            <div class="col-md-6 right-panel">
+                <h2 class="text-center mb-4">Historial</h2>
+                <div id="historialPokemones" class="historial">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

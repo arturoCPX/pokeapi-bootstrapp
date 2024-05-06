@@ -1,0 +1,27 @@
+.left-panel {
+    background-color: #FFD700; 
+    padding: 20px;
+}
+.right-panel {
+    background-color: #4169E1; 
+    color: white;
+    padding: 20px;
+}
+.historial {
+    margin-bottom: 20px;
+}
+.equipo {
+    margin-bottom: 20px;
+}
+.pokemon-info {
+    background-color: #FFFACD; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.historial {
+    margin-bottom: 20px;
+    color: black; 
+}
