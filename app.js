@@ -4,7 +4,6 @@ if (localStorage.getItem('equiposPokemon')) {
     equiposPokemon = JSON.parse(localStorage.getItem('equiposPokemon'));
 }
 
-
 document.getElementById('agregar').addEventListener('click', async function () {
     const nombrePokemon = document.getElementById('nombre').value.toLowerCase();
     if (nombrePokemon === '') {
